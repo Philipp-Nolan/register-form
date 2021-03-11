@@ -1,0 +1,18 @@
+.nav-link {
+  display: none;
+}
+
+.nav-list {
+  box-shadow: none !important;
+}
+
+.register {
+  border: 3px solid black !important;
+  border-style: dotted !important;
+  box-shadow: none !important;
+}
+.register::after {
+  content: 'Your print! :)';
+  font-style: italic;
+  font-size: 24px;
+}

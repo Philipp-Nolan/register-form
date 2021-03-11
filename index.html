@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register form</title>
+    <link rel="stylesheet" href="./assets/css/main_style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><img class="logo" src="./assets/img/violet_ufo.gif" alt=""
+            /></a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form class="register" action="">
+        <h1 class="register-md">Register</h1>
+        <p class="register-md">
+          Create your account in the <span class="nasa">NASA</span> program.
+        </p>
+        <input required class="input" placeholder="First Name" type="text" />
+        <input required class="input" placeholder="Last Name" type="text" />
+        <input required class="input" placeholder="Email" type="email" />
+        <input required class="input" placeholder="Password" type="password" />
+        <input required class="input" placeholder="Confirm Password" type="password" />
+        <label class="label" for="accept">
+          <input required id="accept" name="isAccept" type="checkbox" />
+          I accept the <span>Terms of Use</span> & <span>Privacy Policy</span>.
+        </label>
+        <button id="submit" type="submit">Register Now</button>
+      </form>
+    </main>
+    <footer>
+      <p>All Rights Reserved.You keep all rights to your material !</p>
+    </footer>
+  </body>
+</html>
